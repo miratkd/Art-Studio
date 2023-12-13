@@ -1,5 +1,9 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+    <p>4564564564564</p>
 </template>
+
+<script>
+export default {
+    name: 'AboutView'
+}
+</script>
