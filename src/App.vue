@@ -1,16 +1,17 @@
 <template>
   <AppNav />
+  <SideTag/>
   <RouterView/>
 </template>
 
 <script>
-import { RouterView } from 'vue-router';
 import AppNav from './components/AppNav.vue';
+import SideTag from './components/SideTag.vue';
 
 export default {
   components:{
     AppNav,
-    RouterView
+    SideTag
 }
 }
 </script>
@@ -19,7 +20,7 @@ export default {
 #app {
   font-family: 'League Spartan', sans-serif;
   font-size: 1vw;
-  margin: 5vh 7vw 0 7vw;
+  margin: 5vh 10vw 0 10vw;
 }
 a{
   text-decoration: none;
@@ -70,5 +71,23 @@ p{
   font-weight: 500;
   line-height: 1.33;
   margin: 0;
+}
+
+/* tablet */
+@media screen and (max-width: 1050px ) and (orientation: portrait) {
+  #app {
+    font-size: 2vw;
+  }
+}
+
+/* mobile */
+@media screen and (max-width: 500px ){
+  #app {
+    font-size: 3vw;
+    margin: 0;
+  }
+  body{
+    margin: 15vh 0 0 0;
+  }
 }
 </style>
