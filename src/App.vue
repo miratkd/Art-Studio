@@ -20,7 +20,7 @@ export default {
 #app {
   font-family: 'League Spartan', sans-serif;
   font-size: 1vw;
-  margin: 5vh 10vw 0 10vw;
+  margin: 5vh 12vw 0 12vw;
 }
 a{
   text-decoration: none;
