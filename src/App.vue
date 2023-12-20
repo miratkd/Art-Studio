@@ -66,7 +66,7 @@ h4 {
 }
 p{
   color: #60636D;
-  font-size: 1.13em;
+  font-size: 1.3em;
   font-style: normal;
   font-weight: 500;
   line-height: 1.33;
