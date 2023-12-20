@@ -72,6 +72,12 @@ export default {
         font-size: 8.5em;
         line-height: unset;
     }
+    .welcome-container{
+        height: unset;
+    }
+    .welcome-title-container {
+    position: unset;
+}
 }
 
 /* mobile */
