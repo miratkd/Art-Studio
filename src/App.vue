@@ -2,21 +2,27 @@
   <AppNav />
   <SideTag/>
   <RouterView/>
+  <FooterComponent/>
 </template>
 
 <script>
 import AppNav from './components/AppNav.vue';
 import SideTag from './components/SideTag.vue';
+import FooterComponent from './components/FooterComponent.vue';
 
 export default {
   components:{
     AppNav,
-    SideTag
+    SideTag,
+    FooterComponent
 }
 }
 </script>
 
 <style>
+body{
+  margin: 0;
+}
 #app {
   font-family: 'League Spartan', sans-serif;
   font-size: 1vw;
