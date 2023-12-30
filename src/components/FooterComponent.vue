@@ -27,7 +27,7 @@ export default {
     },
     methods: {
         move() {
-            this.$router.push('about')
+            this.$router.push('portfolio')
         }
     }
 }
@@ -77,7 +77,7 @@ export default {
 @media screen and (max-width: 1050px) and (orientation: portrait) {
     .footer-container {
         margin-left: -12vw;
-        width: 131%;
+        width: 121%;
     }
 
     .footer-select-container {

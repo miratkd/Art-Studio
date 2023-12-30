@@ -26,7 +26,7 @@ body{
 #app {
   font-family: 'League Spartan', sans-serif;
   font-size: 1vw;
-  margin: 5vh 12vw 0 12vw;
+  margin: 5vh 7vw 0 10vw;
 }
 a{
   text-decoration: none;
@@ -64,7 +64,7 @@ h3 {
 
 h4 {
   color: #1B1D23;
-  font-size: 2em;
+  font-size: 2.2em;
   font-style: normal;
   font-weight: 700;
   line-height: 1.25;
