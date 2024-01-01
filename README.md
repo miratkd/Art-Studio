@@ -1,24 +1,13 @@
-# art-studio
+# Arch
 
-## Project setup
-```
-npm install
-```
+Um projeto voltado para estética, beleza e minimalismo. Meus professores de arte ficariam orgulhosos.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+-->> [Veja você mesmo](https://arch-lm.netlify.app/) <<--
 
-### Compiles and minifies for production
-```
-npm run build
-```
+![Home](https://github.com/miratkd/Art-Studio/blob/main/src/assets/readme/home.png?raw=true)
 
-### Lints and fixes files
-```
-npm run lint
-```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![Portfolio](https://github.com/miratkd/Art-Studio/blob/main/src/assets/readme/portfolio.png?raw=true)
+
+
+![about](https://github.com/miratkd/Art-Studio/blob/main/src/assets/readme/about.png?raw=true)
